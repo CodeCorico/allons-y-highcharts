@@ -1,0 +1,24 @@
+{
+  "name": "allons-y-highcharts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeCorico/allons-y-highcharts.git"
+  },
+  "author": "CodeCorico <hello@codecorico.com>",
+  "bugs": {
+    "url": "https://github.com/CodeCorico/allons-y-highcharts/issues"
+  },
+  "homepage": "https://github.com/CodeCorico/allons-y-highcharts",
+  "engines": {
+    "node": ">=4.1",
+    "npm": ">=3.2"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-rename": "^1.2.2",
+    "highcharts-release": "^4.2.7"
+  }
+}
