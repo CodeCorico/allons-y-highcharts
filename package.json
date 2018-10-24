@@ -17,6 +17,12 @@
   "dependencies": {
     "allons-y-gulp": "^1.0.0",
     "gulp-rename": "^1.2.2",
-    "highcharts-release": "^4.2.7"
-  }
+    "highcharts-release": "^4.2.7",
+    "snyk": "^1.104.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
